@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Time until DIEGO is CRACKED</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="overlay"></div>
+  <main id="app">
+    <div class="container">
+      <header class="header">
+        <h1 class="title">DIEGO</h1>
+        <p class="subtitle">Countdown</p>
+      </header>
+
+      <div class="countdown" aria-live="polite">
+        <div class="unit days">
+          <span class="number" id="days">0</span>
+          <span class="label">Days</span>
+        </div>
+        <div class="sep">:</div>
+        <div class="unit hours">
+          <span class="number" id="hours">00</span>
+          <span class="label">Hours</span>
+        </div>
+        <div class="sep">:</div>
+        <div class="unit minutes">
+          <span class="number" id="minutes">00</span>
+          <span class="label">Minutes</span>
+        </div>
+        <div class="sep">:</div>
+        <div class="unit seconds">
+          <span class="number" id="seconds">00</span>
+          <span class="label">Seconds</span>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="note">Time until <strong>DIEGO</strong> is <strong>CRACKED</strong></div>
+        <div class="target-date" id="targetDate" aria-hidden="true"></div>
+      </footer>
+
+    </div>
+  </main>
+
+  <div id="doneOverlay" class="done hidden">
+    <div class="doneBox">
+      <h2>— DIEGO is CRACKED —</h2>
+      <p class="sub">The countdown has ended.</p>
+      <button id="restart">Start New Random 2026 Countdown</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
